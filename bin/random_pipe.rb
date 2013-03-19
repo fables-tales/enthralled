@@ -4,7 +4,7 @@ require "enthralled"
 
 OUTPUT_AMOUNT = 10_000
 
-p = Enthralled::BitPool.new(4)
+p = Enthralled::BitPool.new(32)
 Enthralled::CounterSource.new(p)
 
 OUTPUT_AMOUNT.times do |i|
