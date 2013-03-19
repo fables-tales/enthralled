@@ -3,7 +3,7 @@ module Enthralled
 
     DESIRED_BITS = 8
 
-    def initialize(pool, period=0.0001, tap_bits=8)
+    def initialize(pool, period=0.0001, tap_bits=1)
       @bits_to_tap = tap_bits
       @period = period
       @currently_tapped_bits = 0
