@@ -7,7 +7,7 @@ cryptographically secure.
 Here's how it works:
 
 * In `lib/enthralled/sources/counter_source.rb` we run a timer and a counter,
-  every time the counter fires we tap some bits off it and shove them into a
+  every time the timer fires we tap some bits off it and shove them into a
   pool
 * When the pool gets sufficiently full it takes the sha256 digest of the pool
   and dumps it
